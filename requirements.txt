@@ -1,7 +1,8 @@
+# Application Framework and Server (Good to pin)
 Flask==3.0.0
-numpy==1.26.2
-pandas==2.1.4
-scikit-learn==1.3.2
-Werkzeug==3.0.1
 gunicorn==21.2.0
-setuptools>=68.0.0
+
+# Scientific Libraries (Do not pin for fast installs)
+numpy
+pandas
+scikit-learn
